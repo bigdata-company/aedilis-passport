@@ -1,0 +1,9 @@
+{
+  "name": "aedilis-passport-examples",
+  "version": "0.0.0",
+  "dependencies": {
+    "express": ">= 0.0.0",
+    "passport": ">= 0.0.0",
+    "passport-aedilis": "^1.0.1"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "aedilis-passport",
+  "version": "1.0.1",
+  "description": "Aedilis authentication strategy based on the HTTP Bearer authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "auth",
+    "authn",
+    "authentication",
+    "authz",
+    "authorization",
+    "http",
+    "aedilis",
+    "bearer",
+    "token",
+    "oauth"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bigdata-company/aedilis-passport.git"
+  },
+  "bugs": {
+    "url": "http://github.com/bigdata-company/aedilis-passport/issues"
+  },
+  "author": {
+    "name": "BigData.Company",
+    "email": "code@bigdata.company",
+    "url": "http://www.bigdata.company/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "restler": "^3.2.2",
+    "passport-http-bearer": "1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x",
+    "chai-passport-strategy": "0.1.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
